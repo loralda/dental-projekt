@@ -1,0 +1,91 @@
+
+ *{
+  box-sizing: border-box;
+ }
+/*stilizim background*/
+body{
+    height: 1500px;;
+    background: linear-gradient(55deg, #d0dbdb 20%, #bad5d8 61%, #afcdd8 85%);
+
+   
+    
+}
+.nav1, .nav2{
+  top: 0;
+}
+
+
+/* stilizim galeri fotosh*/
+.gallery2{
+  top: 20% ;
+   position: relative;
+
+}
+   .gallery1{
+    position: relative;
+top: 10%;
+   }
+   #klinika{
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 40px;
+   }
+.footer-08{
+  position: relative;
+  top: 40%;
+ bottom: 0;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*location*/
+.map{
+  position: relative;
+  top: 20%;
+ bottom: 0;
+ width: 100%;
+ height: 200px;
+}

@@ -1,0 +1,103 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    line-height: 1.8;
+}
+.nav2{
+
+    width: 100%;
+    z-index: 50;
+    background-color: transparent;
+  }
+#nav1{
+   
+    display: block;
+   padding-bottom: 10px;
+  background-color: rgb(99, 186, 189);
+ 
+   
+}
+/*carousel stilizim*/
+
+
+.navbar-brand img,.logo{ /* logo*/
+    width: 120px;
+    height: 120px;
+  
+}
+.nav-link{
+    color: white;
+    display: flex;
+}
+.bi{
+   display: flex;
+    color: white;
+    
+}
+
+
+#nav2{
+    color:rgb(99, 186, 189) ;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.nav-item{
+    display: flex ;
+    padding-right: 10px;
+
+}
+.nav{
+    padding-left: 200px;
+}
+   
+
+#nav3{
+font-size: 13px;
+text-shadow: 2px;
+
+}
+#buton{
+    border: 2px solid;
+    background-color:rgb(99, 186, 189) ;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+   display: flex;
+}
+.ut-btn-text{
+    text-align: center;
+}
+#buton1:hover{
+    color: rgb(5, 5, 117);
+}
+.dropdown-item{
+    color:rgb(99, 186, 189) ;
+
+}
+.w3-button{
+    background-color: rgb(35, 135, 202);
+}
+
+
+h2{
+    color:rgb(99, 186, 189)
+    }
+    .korona{
+       margin-top: 50px;
+      
+    }
+  
+    .clearfix{
+      margin-top: 100px;
+    }
+    .card img{
+        height: 500px;
+    }
+    .map{
+        width: 100%;
+    }
+    .kontakt{
+border: 1px solid rgb(130, 183, 192);
+background-color:   #95c3d6b3;
+;
+    }

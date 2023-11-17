@@ -1,0 +1,235 @@
+
+body,html{
+    width: 100%;
+    height: 100%;
+    line-height: 1.8;
+}
+.nav2{
+    position: fixed!important;
+    width: 100%;
+    z-index: 50;
+    background-color: transparent;
+  }
+#nav1{
+    display: block;
+   padding-bottom: 10px;
+  background-color: rgb(99, 186, 189);
+ 
+   
+}
+/*carousel stilizim*/
+
+
+.navbar-brand img,.logo{ /* logo*/
+    width: 120px;
+    height: 120px;
+  
+}
+.nav-link{
+    color: white;
+    display: flex;
+}
+.bi{
+   display: flex;
+    color: white;
+    
+}
+
+
+#nav2{
+    color:rgb(99, 186, 189) ;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.nav-item{
+    display: flex ;
+    padding-right: 10px;
+
+}
+.nav{
+    padding-left: 200px;
+}
+   
+
+#nav3{
+font-size: 13px;
+text-shadow: 2px;
+
+}
+
+
+#buton{
+    border: 2px solid;
+    background-color:rgb(99, 186, 189)!important ;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+   display: flex;
+}
+.ut-btn-text{
+    text-align: center;
+}
+#buton1:hover{
+    color: rgb(5, 5, 117);
+}
+.dropdown-item{
+    color:rgb(99, 186, 189) ;
+
+}
+
+.vidjo, .vidjo video{
+ top: 10%;
+    height: 800px;
+ object-fit: cover;
+   position: relative;
+   width: 100%;
+}
+@media screen and (max-width: 800px) {
+ .vidjo video{
+    width: 100%;
+  }
+}
+
+.btn{
+    background-color:  #1481afb3;
+
+}
+.Pershkrime{
+    color: rgb(214, 229, 241);
+font-style: inherit bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: tr;
+    
+}
+.card-group{
+    margin-top:  -30px;
+   
+   /* padding-left:300px ;*/
+    align-items: center;
+   
+    
+}
+#card1{
+    background-color:rgb(99, 186, 189) ;
+color: white;
+border-radius: 15px ;
+width: 300px;
+   height: 400px;
+
+
+}
+#card2{
+  width: 300px;
+   height: 400px;
+   
+    background-color:rgb(61, 153, 156) ;
+    color: white;
+    border-radius: 15px ;
+    
+}
+#card3{
+  width: 300px;
+   height: 400px;
+    background-color:rgb(46, 131, 134) ;
+    color: white;
+    border-radius: 15px;
+ 
+
+}
+
+ 
+  @media  screen and (max-width: 1000px) {
+   .card-body  {
+    font-size: 12px;
+  
+    
+    }
+  }
+  #sherbimet{
+ color:rgb(46, 131, 134) ;
+ font-size: 40px;
+ margin-top: 50px;
+font-weight: bold;
+
+
+
+  }
+  #titull2{
+    color:rgb(255, 255, 255) ;
+ font-size: 30px;
+
+font-style: bold;
+border: 1px solid transparent;
+background-color:rgb(46, 131, 134);
+
+  }
+  /*galeria hom stilizim*/
+.photogalery{
+   
+    background-color: #c2dbe7b3;
+    
+}
+
+ 
+
+  .table-responsive{
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .w-100{
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+
+  }
+  .emri{
+    font-size: 20px;
+    padding-top: 0;
+    text-align: center;
+  }
+  /*stilizim titulli punimet*/
+  #emri{
+    font-size: 20px;
+    padding-top: 0;
+    text-align: center;
+    color:rgb(46, 131, 134) ;
+  }
+  /*punimet */
+  .mySlides{
+    height: 400px;
+    width: 400px;
+    
+  }
+  #slidetext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .w3-content{
+ 
+    height: 400px;
+    width: 600px;
+ 
+  }
+
+ /*STILIZO MAP*/
+ 
+ 
+ iframe{
+    width: 100%;
+    height: 400px;
+    padding-bottom: 0px;
+ }
+.w3-button{
+  background-color: #0a16b4b3 !important ;
+  color: white !important;
+ 
+}
+.w3-container{
+  margin-top: 50px;
+}
+/*foto para pas punimetr*/
+.parapas img{
+  height: 400px; 
+  width: 600px;
+}

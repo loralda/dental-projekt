@@ -1,0 +1,65 @@
+
+
+ *{
+  box-sizing: border-box;
+ }
+.w3-display-container{
+    position: relative;
+   top: 20%;
+}
+
+.w3-display-container img{
+  width: 100%;
+height: 500px;
+}
+.klinikajon{
+  position: relative;
+  display: flex;
+  top: 30%;
+  border: 2px solid transparent;
+
+}
+.klinikajon2{
+ position: relative;
+  top: 35%;
+}
+.text{
+  float: left;
+  width: 50%;
+}
+.carousel{
+  float: right;
+width: 50%;
+}
+
+.carousel img{
+  width: 400px;
+  height: 400px;
+}
+
+
+/*cfar na vecon*/
+
+h3{
+  color:rgb(99, 186, 189)
+}
+.list-group li{
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+  .staff1{
+    position: relative;
+    top: 25%;
+  }
+  .staff2{
+    position: relative;
+    top: 25%;
+   
+  }
+ 
+.map{
+  position: relative;
+  top: 25%;
+ 
+}
